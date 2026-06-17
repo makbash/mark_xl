@@ -1,0 +1,47 @@
+# ── Virtual environment / local Python ────────────────────────────────────
+/.venv
+.venv/
+venv/
+env/
+
+# ── Python bytecode & caches ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── User-specific config & secrets (created at first run) ─────────────────
+config/api_keys.json
+
+# ── Runtime data (machine-specific, regenerated) ──────────────────────────
+memory/long_term.json
+*.log
+run.log
+deps.log
+
+# ── Downloaded models / caches ────────────────────────────────────────────
+*.pt
+*.onnx
+*.bin
+models/
+.cache/
+
+# ── Generated output (screenshots, dev_agent projects, media) ─────────────
+screenshots/
+output/
+generated/
+*.tmp
+
+# ── OS junk ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
